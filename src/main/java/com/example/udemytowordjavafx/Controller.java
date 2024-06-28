@@ -27,7 +27,7 @@ public class Controller {
     private TextField Heading2Box;
 
     @FXML
-    private TextField Heading1Box;
+    private TextField ProjectNameBox;
 
     @FXML
     private TextField WordDocPath;
@@ -58,7 +58,7 @@ public class Controller {
         String path = WordDocPath.getText().trim();
         String heading3 = Heading3Box.getText().trim();
         String heading2 = Heading2Box.getText().trim();
-        String heading1 = Heading1Box.getText().trim();
+        String heading1 = ProjectNameBox.getText().trim();
 
         if (!heading3.equals("") && !heading2.equals("") && !path.equals("")) {
 

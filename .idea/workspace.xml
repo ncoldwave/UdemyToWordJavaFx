@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c11f3b3-4758-465c-a097-09a412c7912d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/DocxHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/notused/WebDriverHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/notused/WebsiteParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/notused/WebsiteRegex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/udemytowordjavafx/UdemyToWord-view.fxml" afterDir="false" />
+    <list default="true" id="5c11f3b3-4758-465c-a097-09a412c7912d" name="Changes" comment="Adding working project to remote git">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/udemytowordjavafx/UdemyToWord-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/udemytowordjavafx/UdemyToWord-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +29,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2hxqYSxpEEIZttxbI7jBFaRhUwf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -98,8 +84,17 @@
       <workItem from="1718546127751" duration="13096000" />
       <workItem from="1719262322784" duration="344000" />
       <workItem from="1719484202958" duration="22876000" />
-      <workItem from="1719576333613" duration="3050000" />
+      <workItem from="1719576333613" duration="3532000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding working project to remote git">
+      <option name="closed" value="true" />
+      <created>1719581019519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719581019520</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,5 +122,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding working project to remote git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding working project to remote git" />
   </component>
 </project>

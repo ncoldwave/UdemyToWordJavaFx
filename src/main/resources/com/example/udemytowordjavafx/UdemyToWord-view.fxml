@@ -26,13 +26,13 @@
 <!--</Pane>-->
 
 <ScrollPane fx:id="MainScrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-            prefHeight="462.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            prefHeight="462.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="com.example.udemytowordjavafx.Controller">
     <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="598.0">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="555.0">
             <children>
                 <TextField fx:id="WordDocPath" layoutX="66.0" layoutY="14.0" prefHeight="25.0" prefWidth="482.0" promptText="Path" text="output" />
-                <TextField fx:id="Heading1Box" layoutX="7.0" layoutY="44.0" prefHeight="25.0" prefWidth="541.0" promptText="Heading 1" />
+                <TextField fx:id="ProjectNameBox" layoutX="7.0" layoutY="44.0" prefHeight="25.0" prefWidth="541.0" promptText="Project Name" />
                 <VBox layoutY="73.0" prefHeight="373.0" prefWidth="553.0">
                     <children>
                         <Pane prefHeight="238.0" prefWidth="553.0">
@@ -49,8 +49,8 @@
                                     </HBox.margin>
                                 </Button>
                                 <Pane prefHeight="27.0" prefWidth="422.0" />
-                                <Button fx:id="PlusButton" disable="true" mnemonicParsing="false" text="+" />
-                                <Button fx:id="MinusButton" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-">
+                                <Button fx:id="PlusButton" disable="true" mnemonicParsing="false" text="+" visible="false" />
+                                <Button fx:id="MinusButton" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" visible="false">
                                     <HBox.margin>
                                         <Insets left="5.0" />
                                     </HBox.margin>

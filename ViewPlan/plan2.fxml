@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fx:id="MainScrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="412.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="555.0">
+         <children>
+            <TextField fx:id="WordDocPath" layoutX="66.0" layoutY="14.0" prefHeight="25.0" prefWidth="482.0" promptText="Path" text="output" />
+            <TextField fx:id="ProjectNameBox" layoutX="7.0" layoutY="44.0" prefHeight="25.0" prefWidth="541.0" promptText="Project Name" />
+            <VBox layoutY="73.0" prefHeight="373.0" prefWidth="553.0">
+               <children>
+                  <Pane prefHeight="238.0" prefWidth="553.0">
+                     <children>
+                        <TextField fx:id="Heading2Box" layoutX="7.0" layoutY="2.0" prefHeight="25.0" prefWidth="542.0" promptText="Heading 2" />
+                        <TextArea fx:id="Heading3Box" layoutX="6.0" layoutY="32.0" prefHeight="200.0" prefWidth="542.0" promptText="Heading 3" />
+                     </children>
+                  </Pane>
+                  <HBox prefHeight="27.0" prefWidth="548.0">
+                     <children>
+                        <Button fx:id="GenerateButton" mnemonicParsing="false" onAction="#generateButtonClick" text="Generate">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                        <Pane prefHeight="27.0" prefWidth="422.0" />
+                        <Button fx:id="PlusButton" disable="true" mnemonicParsing="false" text="+" visible="false" />
+                        <Button fx:id="MinusButton" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" visible="false">
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <Label fx:id="statusLabel">
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Button fx:id="clearButton" layoutX="7.0" layoutY="13.0" mnemonicParsing="false" onAction="#doClearButtonClick" prefHeight="25.0" prefWidth="49.0" text="Clear" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
