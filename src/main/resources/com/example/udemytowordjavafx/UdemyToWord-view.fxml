@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Button?>
+<!--<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"-->
+<!--      fx:controller="com.example.udemytowordjavafx.Controller">-->
+<!--    <padding>-->
+<!--        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>-->
+<!--    </padding>-->
+
+<!--    <Label fx:id="welcomeText"/>-->
+<!--    <Button text="Generate" onAction="#onHelloButtonClick"/>-->
+<!--</VBox>-->
+
+<!--<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="743.0"-->
+<!--      prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"-->
+<!--      fx:controller="com.example.udemytowordjavafx.Controller">-->
+<!--<children>-->
+<!--    <Button fx:id="GenerateButton" layoutX="529.0" layoutY="14.0" mnemonicParsing="false" text="Generate" onAction="#onHelloButtonClick"/>-->
+<!--    <TextArea fx:id="HtmlArea" layoutX="14.0" layoutY="14.0" prefHeight="715.0" prefWidth="510.0" />-->
+<!--    <Label fx:id="IsFinishedText" layoutX="539.0" layoutY="55.0" text="" />-->
+<!--</children>-->
+<!--</Pane>-->
+
+<ScrollPane fx:id="MainScrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="462.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.udemytowordjavafx.Controller">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="598.0">
+            <children>
+                <TextField fx:id="WordDocPath" layoutX="66.0" layoutY="14.0" prefHeight="25.0" prefWidth="482.0" promptText="Path" text="output" />
+                <TextField fx:id="Heading1Box" layoutX="7.0" layoutY="44.0" prefHeight="25.0" prefWidth="541.0" promptText="Heading 1" />
+                <VBox layoutY="73.0" prefHeight="373.0" prefWidth="553.0">
+                    <children>
+                        <Pane prefHeight="238.0" prefWidth="553.0">
+                            <children>
+                                <TextField fx:id="Heading2Box" layoutX="7.0" layoutY="2.0" prefHeight="25.0" prefWidth="542.0" promptText="Heading 2" />
+                                <TextArea fx:id="Heading3Box" layoutX="6.0" layoutY="32.0" prefHeight="200.0" prefWidth="542.0" promptText="Heading 3" />
+                            </children>
+                        </Pane>
+                        <HBox prefHeight="27.0" prefWidth="548.0">
+                            <children>
+                                <Button fx:id="GenerateButton" mnemonicParsing="false" onAction="#generateButtonClick" text="Generate">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </Button>
+                                <Pane prefHeight="27.0" prefWidth="422.0" />
+                                <Button fx:id="PlusButton" disable="true" mnemonicParsing="false" text="+" />
+                                <Button fx:id="MinusButton" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-">
+                                    <HBox.margin>
+                                        <Insets left="5.0" />
+                                    </HBox.margin>
+                                </Button>
+                            </children>
+                            <VBox.margin>
+                                <Insets left="5.0" />
+                            </VBox.margin>
+                        </HBox>
+                        <Label fx:id="statusLabel">
+                            <VBox.margin>
+                                <Insets left="5.0" />
+                            </VBox.margin>
+                        </Label>
+                    </children>
+                </VBox>
+                <Button fx:id="clearButton" layoutX="7.0" layoutY="13.0" mnemonicParsing="false" onAction="#doClearButtonClick" prefHeight="25.0" prefWidth="49.0" text="Clear" />
+            </children></AnchorPane>
+    </content>
+</ScrollPane>
