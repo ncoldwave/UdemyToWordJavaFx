@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c11f3b3-4758-465c-a097-09a412c7912d" name="Changes" comment="Adding working project to remote git">
+    <list default="true" id="5c11f3b3-4758-465c-a097-09a412c7912d" name="Changes" comment="Adding view plan, minimal UI modification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/udemytowordjavafx/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/udemytowordjavafx/UdemyToWord-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/udemytowordjavafx/UdemyToWord-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,23 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Ncoldwave/IdeaProjects/UdemyToDocx",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ncoldwave/IdeaProjects/UdemyToDocx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ncoldwave\IdeaProjects\UdemyToWordJavaFx" />
@@ -84,7 +84,9 @@
       <workItem from="1718546127751" duration="13096000" />
       <workItem from="1719262322784" duration="344000" />
       <workItem from="1719484202958" duration="22876000" />
-      <workItem from="1719576333613" duration="3532000" />
+      <workItem from="1719576333613" duration="4358000" />
+      <workItem from="1719582858767" duration="19000" />
+      <workItem from="1720276093918" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="Adding working project to remote git">
       <option name="closed" value="true" />
@@ -94,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719581019520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding view plan, minimal UI modification">
+      <option name="closed" value="true" />
+      <created>1719581556955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719581556955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding working project to remote git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding working project to remote git" />
+    <MESSAGE value="Adding view plan, minimal UI modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding view plan, minimal UI modification" />
   </component>
 </project>

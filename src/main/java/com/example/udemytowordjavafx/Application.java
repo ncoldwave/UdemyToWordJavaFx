@@ -10,7 +10,7 @@ public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("UdemyToWord-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 740);
+        Scene scene = new Scene(fxmlLoader.load(), 560, 370);
         stage.setTitle("UdemyToWord");
         stage.setScene(scene);
         stage.show();

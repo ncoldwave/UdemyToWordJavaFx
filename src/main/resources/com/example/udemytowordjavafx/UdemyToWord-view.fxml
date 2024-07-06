@@ -26,14 +26,14 @@
 <!--</Pane>-->
 
 <ScrollPane fx:id="MainScrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-            prefHeight="462.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            prefHeight="300.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="com.example.udemytowordjavafx.Controller">
     <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="555.0">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="555.0">
             <children>
                 <TextField fx:id="WordDocPath" layoutX="66.0" layoutY="14.0" prefHeight="25.0" prefWidth="482.0" promptText="Path" text="output" />
                 <TextField fx:id="ProjectNameBox" layoutX="7.0" layoutY="44.0" prefHeight="25.0" prefWidth="541.0" promptText="Project Name" />
-                <VBox layoutY="73.0" prefHeight="373.0" prefWidth="553.0">
+                <VBox layoutY="73.0" prefHeight="300.0" prefWidth="553.0">
                     <children>
                         <Pane prefHeight="238.0" prefWidth="553.0">
                             <children>
